@@ -4,7 +4,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+html {
+    background-color: #e5e5e5;
+}
 .container {
     max-width: 960px;
     margin: auto;
@@ -34,7 +36,7 @@ nav {
 }
 
 .logo {
-    color: rgb(226, 226, 226);
+    color: rgb(136, 136, 136);
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -51,6 +53,8 @@ nav {
 
 .nav-link li {
     list-style: none;
+    /* font-size: 12px; */
+    text-transform: uppercase;
 }
 
 .nav-link a {
@@ -58,7 +62,7 @@ nav {
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .nav-link a:hover {
@@ -75,7 +79,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(136, 136, 136);
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -285,6 +289,8 @@ code {
     font-size: 1.3rem;
     font-weight: bold;
     color: #EF8354;
+    display: block;
+
 }
 
 .project-view a:hover {
@@ -484,18 +490,18 @@ code {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex
 }
 
 .content h2 {
     font-size: 32px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .content p {
     margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 
@@ -601,7 +607,14 @@ button[type="submit"]:hover {
     color: white;
     animation: status 4s ease forwards;
 }
+.email {
+    text-decoration: none;
+    display: inline;
 
+}
+.email:hover {
+    color: #EF8354;
+}
 @keyframes status {
     0% {
         opacity: 1;
@@ -618,3 +631,7 @@ button[type="submit"]:hover {
         pointer-events: none;
     }
 }
+
+
+/* CONTACT ME PAGE */
+
