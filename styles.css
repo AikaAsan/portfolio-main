@@ -324,8 +324,8 @@ code {
 }
 
 .email a {
-    padding-top: 25px;
-    padding-left: 4px;
+    padding-top: 5px;
+    /* padding-left: 4px; */
 }
 
 .contact-icons a {
